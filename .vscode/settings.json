@@ -1,0 +1,19 @@
+{
+    "C_Cpp.default.compilerPath": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc",
+    "C_Cpp.default.cppStandard": "c++11",
+    "C_Cpp.default.cStandard": "gnu11",
+    "C_Cpp.default.compileCommands": "cmake . && make",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.default.includePath": [
+        "/usr/local/vitasdk/arm-vita-eabi/include",
+        "./Container",
+        "./Defines",
+        "./Figures",
+        "./Font",
+        "./PSVDebug",
+        "./Scene",
+        "./Sound",
+        "./src"
+    ],
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+}
